@@ -4,8 +4,8 @@ function manufacture(gifts, materials) {
     })
 }
 
-const gifts = ['tren', 'oso', 'pelota']
-const materials = 'tronesa'
+let gifts = ['tren', 'oso', 'pelota']
+let materials = 'tronesa'
 
 manufacture(gifts, materials) // ["tren", "oso"]
 // 'tren' SÍ porque sus letras están en 'tronesa'
